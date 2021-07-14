@@ -1,0 +1,86 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-14T16:29:34.694Z",
+        "before": [
+          {
+            "result": {
+              "duration": 334000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fruitshop.step_definitions.Hooks.fruitShopInitializer()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "user is able to update a name and price of the product",
+        "description": "",
+        "id": "add-new-product;user-is-able-to-update-a-name-and-price-of-the-product",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fruitshop.step_definitions.Hooks.cleanUpFruitShop()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2490000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user update the name and price of the product",
+            "match": {
+              "location": "com.fruitshop.step_definitions.updateProduct_stepdefinitions.user_update_the_name_and_price_of_the_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1017000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user is able to verify the updated name and a price",
+            "match": {
+              "location": "com.fruitshop.step_definitions.updateProduct_stepdefinitions.user_is_able_to_verify_the_updated_name_and_a_price()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "list the product",
+            "match": {
+              "location": "com.fruitshop.step_definitions.updateProduct_stepdefinitions.list_the_product()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Add new product",
+    "description": "",
+    "id": "add-new-product",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/add.feature",
+    "tags": []
+  }
+]
